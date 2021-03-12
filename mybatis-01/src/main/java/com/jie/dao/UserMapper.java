@@ -12,7 +12,19 @@ import java.util.List;
  * @date:2021/3/6 15:06
  * @author:VX438364246
  */
-public interface UserDao {
-     List<User> getUserList();
+public interface UserMapper {
+    //查询全部
+    List<User> getUserList();
+
+    //查询一个
+    User queryUser(int id);
+
+    //新增
+    int addUser(User user);
+
+    //修改
+    int updateUser(User user);
+    //查询
+     int deleteUser(int id);
 
 }
