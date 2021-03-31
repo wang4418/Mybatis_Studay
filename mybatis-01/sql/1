@@ -9,6 +9,6 @@ CREATE TABLE `user`(
 
 DROP TABLE USER
 
-INSERT INTO USER(id,NAME,pwd)VALUES(1,'xx1','123123'),(2,'xx2','123123'),(3,'xx3','12312')
+INSERT INTO `user`(id,NAME,pwd)VALUES(1,'xx1','123123'),(2,'xx2','123123'),(3,'xx3','12312')
 
 SELECT*FROM mybatis.user
