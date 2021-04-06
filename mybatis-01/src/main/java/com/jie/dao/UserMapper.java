@@ -3,6 +3,7 @@ package com.jie.dao;
 import com.jie.pojo.User;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * ClassName:UserDao
@@ -18,9 +19,10 @@ public interface UserMapper {
 
     //查询一个
     User queryUser(int id);
-
+    User queryUser2(Map<String,Object> map);
     //新增
     int addUser(User user);
+    int addUser2(Map<String,Object> map);
 
     //修改
     int updateUser(User user);

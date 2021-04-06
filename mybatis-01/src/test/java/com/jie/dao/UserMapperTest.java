@@ -6,6 +6,7 @@ import com.mysql.cj.protocol.a.MysqlBinaryValueDecoder;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -48,6 +49,16 @@ public class UserMapperTest {
 
         sqlSession.close();
     }
+    @Test
+    public void  queryUser2(){
+        SqlSession sqlsession = MybatisUtils.getSqlsession();
+        UserMapper mapper = sqlsession.getMapper(UserMapper.class);
+        HashMap<String, Object> map = new HashMap<String, Object>();
+        map.put("uid",1);
+      User u= mapper.queryUser2(map);
+        System.out.println(u);
+        sqlsession.close();
+    }
 
 
     public void addUser() {
@@ -71,6 +82,20 @@ public class UserMapperTest {
 
         sqlSession.close();
 
+    }
+    @Test
+    public void addUser2(){
+        SqlSession sqlsession = MybatisUtils.getSqlsession();
+        UserMapper mapper = sqlsession.getMapper(UserMapper.class);
+
+        HashMap<String, Object> map = new HashMap<String, Object>();
+        map.put("userid",5);
+        map.put("username","222");
+        map.put("userpwd","222");
+
+        mapper.addUser2(map);
+
+        sqlsession.close();
     }
 
     public void updateUser(){
