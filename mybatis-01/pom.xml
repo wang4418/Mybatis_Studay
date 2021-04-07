@@ -10,10 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mybatis-01</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>mybatis-02</module>
-    </modules>
+<!--    <packaging>war</packaging>-->
+<!--    <modules>-->
+<!--        <module>../mybatis-02</module>-->
+<!--    </modules>-->
 
 
 </project>

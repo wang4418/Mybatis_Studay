@@ -35,27 +35,27 @@
         <scope>test</scope>
     </dependency>
 </dependencies>
-<!--    在build中配置resource，防止资源导出失败-->
-<build>
-<resources>
-    <resource>
-        <directory>src/main/resources</directory>
-        <includes>
-        <include>**/*.properties</include>
-        <include>**/*.xml</include>
-        </includes>
+    <!--    在build中配置resource，防止资源导出失败-->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
 
-    </resource>
-    <resource>
-        <directory>src/main/java</directory>
-        <includes>
-            <include>**/*.properties</include>
-            <include>**/*.xml</include>
-        </includes>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
 
-    </resource>
-</resources>
+            </resource>
 
-</build>
+        </resources>
+    </build>
 
 </project>
