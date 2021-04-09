@@ -1,5 +1,7 @@
 package com.jie.pojo;
 
+import org.apache.ibatis.type.Alias;
+
 /**
  * ClassName:User
  * Package:com.jie.pojo
@@ -8,6 +10,7 @@ package com.jie.pojo;
  * @date:2021/3/6 14:59
  * @author:VX438364246
  */
+@Alias("hello")
 public class User {
     private int id;
     private String name;

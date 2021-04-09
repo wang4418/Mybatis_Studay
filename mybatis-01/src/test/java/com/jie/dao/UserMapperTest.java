@@ -40,7 +40,7 @@ public class UserMapperTest {
 
 
     }
-
+    @Test
     public void queryUser(){
         SqlSession sqlSession=MybatisUtils.getSqlsession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
@@ -59,7 +59,16 @@ public class UserMapperTest {
         System.out.println(u);
         sqlsession.close();
     }
-
+    @Test
+public void getUserLike(){
+    SqlSession sqlsession = MybatisUtils.getSqlsession();
+    UserMapper mapper = sqlsession.getMapper(UserMapper.class);
+    List<User> userLike = mapper.getUserLike("%xx3%");
+    for (User user : userLike) {
+        System.out.println(user);
+    }
+    sqlsession.close();
+}
 
     public void addUser() {
         SqlSession sqlSession = MybatisUtils.getSqlsession();

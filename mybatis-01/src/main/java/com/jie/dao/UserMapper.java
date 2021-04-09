@@ -20,6 +20,7 @@ public interface UserMapper {
     //查询一个
     User queryUser(int id);
     User queryUser2(Map<String,Object> map);
+    List<User> getUserLike(String name);
     //新增
     int addUser(User user);
     int addUser2(Map<String,Object> map);
