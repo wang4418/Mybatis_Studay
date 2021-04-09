@@ -19,8 +19,11 @@ public interface UserMapper {
 
     //查询一个
     User queryUser(int id);
-//分页
+    //分页
     List<User> getlimit(Map<String,Object>map);
+    //分页2
+    List<User>getRowBounds();
+
 
 
 }

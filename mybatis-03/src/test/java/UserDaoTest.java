@@ -1,6 +1,7 @@
 import com.jie.dao.UserMapper;
 import com.jie.pojo.User;
 import com.jie.utils.MybatisUtils;
+import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.session.SqlSession;
 
 import org.apache.log4j.Logger;
@@ -48,6 +49,17 @@ public class UserDaoTest {
         }
         sqlsession.close();
 
+    }
+    @Test
+    public void getRowBounds(){
+        RowBounds rowBounds1 = new RowBounds(1,2);
+        SqlSession sqlsession = MybatisUtils.getSqlsession();
+        UserMapper mapper = sqlsession.getMapper(UserMapper.class);
+        List<Object> list = sqlsession.selectList("com.jie.dao.UserMapper.getRowBounds",null,rowBounds1);
+        for (Object o : list) {
+            System.out.println(o);
+        }
+        sqlsession.close();
     }
 
 }

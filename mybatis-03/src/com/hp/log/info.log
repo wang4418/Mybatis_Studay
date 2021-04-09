@@ -10,3 +10,7 @@ ERROR:信息
 INFO:信息：
 2021-04-09 10:15:11 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
 ERROR:信息
+2021-04-09 10:30:20 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:34) ]
+INFO:信息：
+2021-04-09 10:30:20 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
+ERROR:信息
