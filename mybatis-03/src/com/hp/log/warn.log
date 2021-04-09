@@ -1,0 +1,6 @@
+2021-04-09 10:00:52 ÉÏÎç [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
+ERROR:ĞÅÏ¢
+2021-04-09 10:04:21 ä¸Šåˆ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
+ERROR:ä¿¡æ¯
+2021-04-09 10:15:11 ä¸Šåˆ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
+ERROR:ä¿¡æ¯

@@ -1,0 +1,4 @@
+2021-04-08 17:00:19 下午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
+ERROR:信息
+2021-04-08 17:34:40 下午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
+ERROR:信息

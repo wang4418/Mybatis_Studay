@@ -1,0 +1,3 @@
+com\jie\pojo\User.class
+com\jie\utils\MybatisUtils.class
+com\jie\dao\UserMapper.class
