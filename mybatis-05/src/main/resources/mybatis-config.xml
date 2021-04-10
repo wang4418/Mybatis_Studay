@@ -12,9 +12,9 @@
 <!--        <setting name="logImpl" value="LOG4J"/>-->
         <setting name="logImpl" value="STDOUT_LOGGING"/>
     </settings>
-    <typeAliases>
-        <typeAlias type="com.jie.pojo.User" alias="User"></typeAlias>
-    </typeAliases>
+<!--    <typeAliases>-->
+<!--        <typeAlias type="com.jie.pojo.User" alias="User"></typeAlias>-->
+<!--    </typeAliases>-->
     
     <environments default="development">
         <environment id="development">
@@ -30,7 +30,9 @@
     </environments>
 <!--    每一个mapper.xml都需要在mybatis核心配置文件中注册-->
     <mappers>
-<!--        <mapper resource="com/jie/dao/UserMapper.xml"/>-->
+<!--        <mapper resource="com/jie/dao/TeacherMapper.xml"></mapper>-->
+<!--        <mapper resource="com/jie/dao/StudentMapper.xml"></mapper>-->
         <package name="com.jie.dao"/>
     </mappers>
+
 </configuration>
