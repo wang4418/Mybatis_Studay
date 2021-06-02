@@ -1,8 +1,18 @@
-2021-04-09 10:00:52 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
+2021-06-01 09:34:33 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
 ERROR:信息
-2021-04-09 10:04:21 涓婂崍 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
-ERROR:淇℃伅
-2021-04-09 10:15:11 涓婂崍 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
-ERROR:淇℃伅
-2021-04-09 10:30:20 涓婂崍 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
-ERROR:淇℃伅
+2021-06-01 09:35:45 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:信息
+2021-06-01 09:50:35 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:信息
+2021-06-01 09:52:12 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:信息
+2021-06-01 09:54:08 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:信息
+2021-06-01 09:56:46 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:信息
+2021-06-01 09:58:36 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:信息
+2021-06-01 09:59:33 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:信息
+2021-06-01 10:07:44 上午 [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:信息

@@ -14,6 +14,12 @@
         <module>mybatis-03</module>
         <module>mybatis-04</module>
         <module>mybatis-05</module>
+        <module>mybatis-06</module>
+        <module>mybatis-07</module>
+        <module>mybatis-08</module>
+
+
+
     </modules>
     <!--导入依赖-->
 <dependencies>
@@ -49,6 +55,15 @@
         <version>1.18.18</version>
 <!--        <scope>provided</scope>作用域-->
     </dependency>
+<!-- ehcache缓存-->
+    <!-- https://mvnrepository.com/artifact/org.mybatis.caches/mybatis-ehcache -->
+    <dependency>
+        <groupId>org.mybatis.caches</groupId>
+        <artifactId>mybatis-ehcache</artifactId>
+        <version>1.2.1</version>
+    </dependency>
+
+
 
 </dependencies>
     <!--    在build中配置resource，防止资源导出失败-->
@@ -73,6 +88,20 @@
             </resource>
 
         </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <!-- 一般而言，target与source是保持一致的，但是，有时候为了让程序能在其他版本的jdk中运行(对于低版本目标jdk，源代码中需要没有使用低版本jdk中不支持的语法)，会存在target不同于source的情况 -->
+                    <!-- 源代码使用的开发版本 -->
+                    <source>1.8</source>
+                    <!-- 需要生成的目标class文件的编译版本 -->
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
 
     </build>
 

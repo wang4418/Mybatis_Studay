@@ -1,16 +1,36 @@
-2021-04-09 10:00:52 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:34) ]
+2021-06-01 09:34:33 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
 INFO:–≈œ¢£∫
-2021-04-09 10:00:52 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
+2021-06-01 09:34:33 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
 ERROR:–≈œ¢
-2021-04-09 10:04:21 ‰∏äÂçà [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:34) ]
-INFO:‰ø°ÊÅØÔºö
-2021-04-09 10:04:21 ‰∏äÂçà [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
-ERROR:‰ø°ÊÅØ
-2021-04-09 10:15:11 ‰∏äÂçà [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:34) ]
-INFO:‰ø°ÊÅØÔºö
-2021-04-09 10:15:11 ‰∏äÂçà [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
-ERROR:‰ø°ÊÅØ
-2021-04-09 10:30:20 ‰∏äÂçà [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:34) ]
-INFO:‰ø°ÊÅØÔºö
-2021-04-09 10:30:20 ‰∏äÂçà [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:36) ]
-ERROR:‰ø°ÊÅØ
+2021-06-01 09:35:45 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
+INFO:–≈œ¢£∫
+2021-06-01 09:35:45 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:–≈œ¢
+2021-06-01 09:50:35 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
+INFO:–≈œ¢£∫
+2021-06-01 09:50:35 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:–≈œ¢
+2021-06-01 09:52:12 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
+INFO:–≈œ¢£∫
+2021-06-01 09:52:12 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:–≈œ¢
+2021-06-01 09:54:08 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
+INFO:–≈œ¢£∫
+2021-06-01 09:54:08 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:–≈œ¢
+2021-06-01 09:56:46 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
+INFO:–≈œ¢£∫
+2021-06-01 09:56:46 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:–≈œ¢
+2021-06-01 09:58:36 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
+INFO:–≈œ¢£∫
+2021-06-01 09:58:36 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:–≈œ¢
+2021-06-01 09:59:33 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
+INFO:–≈œ¢£∫
+2021-06-01 09:59:33 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:–≈œ¢
+2021-06-01 10:07:44 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:35) ]
+INFO:–≈œ¢£∫
+2021-06-01 10:07:44 …œŒÁ [Thread: main][ Class:UserDaoTest >> Method: UserDaoTest.getlog4j(UserDaoTest.java:37) ]
+ERROR:–≈œ¢
